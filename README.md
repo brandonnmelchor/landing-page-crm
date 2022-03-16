@@ -6,6 +6,6 @@ All text material on this page was taken from [Insightly](https://www.insightly.
 
 https://brandonnmelchor.github.io/Odin-Landing-Page/
 
-![](screenshots/screenshot A.png)
+![](screenshots/screenshot%20A.png)
 
 ![](screenshots/screenshot B.png)
