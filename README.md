@@ -8,4 +8,4 @@ https://brandonnmelchor.github.io/Odin-Landing-Page/
 
 ![](screenshots/screenshot%20A.png)
 
-![](screenshots/screenshot B.png)
+![](screenshots/screenshot%20B.png)
