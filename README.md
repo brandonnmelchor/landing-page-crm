@@ -1,13 +1,11 @@
-# FCC-Product-Landing-Page
+# Odin-Landing-Page
 
-I built a Product Landing Page using vanilla HTML and CSS. I built this for one of freeCodeCamp's Responsive Web Design Certification challenges. Feel free to check it out. Any feedback would be appreciated!
+I built a Landing Page using vanilla HTML and CSS. I built this for one of The Odin Project's Flexbox challenges. Feel free to check it out. Any feedback would be appreciated!
 
 All text material on this page was taken from [Insightly](https://www.insightly.com/crm/).
 
-https://codepen.io/brandonnmelchor/pen/ExbojQL
+https://brandonnmelchor.github.io/Odin-Landing-Page/
 
-https://brandonnmelchor.github.io/FCC-Product-Landing-Page/
+![](screenshots/screenshot A.png)
 
-![](https://github.com/brandonnmelchor/FCC-Product-Landing-Page/blob/main/screenshots/screenshot%20A.png?raw=true)
-
-![](https://github.com/brandonnmelchor/FCC-Product-Landing-Page/blob/main/screenshots/screenshot%20B.png?raw=true)
+![](screenshots/screenshot B.png)
