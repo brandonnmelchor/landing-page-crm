@@ -7,10 +7,6 @@
   border: 1px solid gray;
 }
 
-html {
-  min-width: 550px;
-}
-
 body {
   font-family: "Roboto";
   color: #334257;
@@ -53,7 +49,7 @@ p {
 header {
   display: flex;
   justify-content: space-between;
-  max-width: 1400px;
+  max-width: 70em;
   height: 3.75em;
   padding: 0.75em 1.25em;
   margin: auto;
@@ -96,7 +92,7 @@ nav ul li:hover {
   grid-template-columns: 1fr 1.5fr;
   align-items: center;
   column-gap: 1.5em;
-  max-width: 1400px;
+  max-width: 70em;
   padding: 3.75em 1.25em;
   margin: 3.75em auto 0;
 }
@@ -120,7 +116,7 @@ nav ul li:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 3.75em;
-  max-width: 1400px;
+  max-width: 70em;
   margin: auto;
   padding: 6.25em 1.25em;
 
@@ -175,7 +171,7 @@ nav ul li:hover {
   grid-template-columns: 1.5fr 1fr;
   align-items: center;
   column-gap: 1.5em;
-  max-width: 1400px;
+  max-width: 70em;
   padding: 6.25em 1.25em;
   margin: auto;
 }
@@ -188,11 +184,11 @@ nav ul li:hover {
 }
 
 .projects-header p {
-  margin-top: 20px;
+  margin-top: 1em;
 }
 
 #sign-up {
-  max-width: 1400px;
+  max-width: 70em;
   padding: 6.25em 1.25em;
   margin: auto;
 }
@@ -202,8 +198,8 @@ nav ul li:hover {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   column-gap: 1.5em;
-  min-height: 200px;
-  padding: 0px 25px;
+  min-height: 10em;
+  padding: 0em 1.25em;
   background-color: #548ca8;
   color: #eeeeee;
   box-shadow: 2px 2px 5px #00000033;
@@ -215,7 +211,7 @@ nav ul li:hover {
 }
 
 .sign-up-header p {
-  margin-top: 10px;
+  margin-top: 0.5em;
 }
 
 #form {
@@ -236,7 +232,7 @@ nav ul li:hover {
 }
 
 #email {
-  margin-top: 20px;
+  margin-top: 1em;
 }
 
 #name::placeholder,
@@ -265,8 +261,8 @@ nav ul li:hover {
 }
 
 .footer {
-  max-width: 1400px;
-  padding: 25px;
+  max-width: 70em;
+  padding: 1.25em;
   margin: auto;
   text-align: center;
   font-size: 0.8em;
@@ -337,7 +333,7 @@ nav ul li:hover {
   .sign-up-form {
     grid-template-columns: 1fr;
     row-gap: 30px;
-    padding: 25px;
+    padding: 1.25em;
   }
 }
 
