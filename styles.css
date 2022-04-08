@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
 
 body {
@@ -139,8 +139,8 @@ nav ul li:hover {
 
 .feature img {
   width: 100%;
-  box-shadow: 2px 2px 5px #00000033;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px #00000033;
 }
 
 .feature figcaption {
@@ -202,8 +202,8 @@ nav ul li:hover {
   padding: 0em 1.25em;
   background-color: #548ca8;
   color: #eeeeee;
-  box-shadow: 2px 2px 5px #00000033;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px #00000033;
 }
 
 .sign-up-header h2 {
@@ -279,10 +279,6 @@ nav ul li:hover {
   body {
     font-size: 18px;
   }
-
-  nav ul {
-    width: 450px;
-  }
 }
 
 @media (max-width: 800px) {
@@ -291,12 +287,15 @@ nav ul li:hover {
   }
 
   nav ul {
-    width: 300px;
+    width: 20em;
   }
 
-  #intro {
+  #intro,
+  #features,
+  #projects,
+  .sign-up-form {
     grid-template-columns: 1fr;
-    row-gap: 30px;
+    row-gap: 1.5em;
   }
 
   .intro-header {
@@ -304,9 +303,6 @@ nav ul li:hover {
   }
 
   #features {
-    grid-template-columns: 1fr;
-    row-gap: 30px;
-
     /* prettier-ignore */
     grid-template-areas:
   "feature-header"
@@ -315,30 +311,30 @@ nav ul li:hover {
   "feature3";
   }
 
-  .feature img {
-    width: 80%;
-    display: block;
-    margin: auto;
-  }
-
-  .feature figcaption {
-    margin: 15px 0px 15px;
-  }
-
-  #projects {
-    grid-template-columns: 1fr;
-    row-gap: 30px;
-  }
-
   .sign-up-form {
-    grid-template-columns: 1fr;
-    row-gap: 30px;
     padding: 1.25em;
   }
 }
 
 @media (max-width: 600px) {
-  html {
-    zoom: 70%;
+  body {
+    font-size: 14px;
+  }
+
+  nav ul {
+    width: 15em;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    min-width: 350px;
+    font-size: 10px;
   }
 }
