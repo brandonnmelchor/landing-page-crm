@@ -4,7 +4,7 @@ I created a Product Landing Page using vanilla HTML and CSS. Creating this helpe
 
 All text material on this page was taken from [Insightly](https://www.insightly.com/crm/).
 
-https://brandonnmelchor.github.io/Product-Landing-Page/
+https://brandonnmelchor.github.io/product-landing-page/
 
 ![](screenshots/screenshot%20A.png)
 
