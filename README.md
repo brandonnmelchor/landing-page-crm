@@ -1,4 +1,4 @@
-# Product-Landing-Page
+# Product Landing Page
 
 I created a Product Landing Page using vanilla HTML and CSS. Creating this helped me better understand CSS Flexbox and CSS Grid, as well as ensuring my page is responsive to viewport size using media queries.
 
